@@ -5,4 +5,8 @@ Hi! In assets folder you will find set of PNG converted GeoTIFF files originally
 * 30ss files, on the other hand, are derived directly from the original images with a resolution of 30 arcseconds, with dimensions 1200x1200 pixels. These files undergo no transformation except for adjustments to the color scheme and conversion from TIFF to PNG format.
 * 90ss files, they are created by combining and compressing 30ss files. Specifically, nine 30ss files arranged in a 3x3 grid are merged and compressed into a single 90ss file, maintaining a resolution of 1200x1200 pixels.
 
-Metadata files:
+### Metadata files:
+Each resolution file is described via metaData.json file that describes file's or image extent or position on earth in lon/lat.   
+* [3ss metaData.json](assets/3ss/metaData.json)
+* [30ss metaData.json](assets/30ss/metaData.json)
+* [90ss metaData.json](assets/90ss/metaData.json)
